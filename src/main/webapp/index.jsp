@@ -1,4 +1,3 @@
-
  <%
  	String contextPath = request.getContextPath();
  	String home = contextPath+"/home.action";
