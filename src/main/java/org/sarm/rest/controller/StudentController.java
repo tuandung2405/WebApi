@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/students")
-public class StudentRestController {
+@RequestMapping("/student")
+public class StudentController {
 
 	@RequestMapping(value = "/get-all-students")
 	public @ResponseBody List<Student> getAllStudents() {

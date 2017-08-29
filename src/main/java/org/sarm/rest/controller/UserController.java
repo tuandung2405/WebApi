@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/user")
-public class UserRestController {
+public class UserController {
 
 	@RequestMapping(value = "/getuserinfo")
 	public @ResponseBody User getUserDetails() {
